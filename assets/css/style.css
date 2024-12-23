@@ -8,7 +8,21 @@
 }
 body {
     font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1160px;
+
+}
+address {
+    font-style: normal;
 }
 h1, h2, h3 {
     font-family: "Lato", sans-serif;
+}
+section {
+    padding: 30px;
+}
+strong {
+    font-size: 3em;
+    font-weight: 900;
 }
