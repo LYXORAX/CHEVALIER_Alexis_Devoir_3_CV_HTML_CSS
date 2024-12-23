@@ -6,7 +6,7 @@ header {
     color: #fff;
 }
 #header-logo {
-    width: 27%;
+    width: 30%;
 }
 #header-logo img {
     display: block;
@@ -18,7 +18,7 @@ header {
     margin: 0 auto;
 }
 #header-title {
-    width: 73%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
