@@ -39,7 +39,6 @@ header {
     margin-bottom: 10px;
 }
 .container-infos__address li img {
-    width: 15px;
     margin-right: 5px;
 }
 .container-infos__address li:nth-of-type(odd) {
@@ -49,6 +48,35 @@ header {
     width: 35%;
 }
 
+/* MAIN ASIDE */
+aside {
+    width: 30%;
+    background-color: rgba(227, 227, 277, 0.5);
+    padding: 25px;
+}
+aside section {
+    padding-bottom: 0;
+}
+#profil {
+    width: 70%;
+}
+.competences-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.competences-list li:last-child {
+    margin-bottom: 0;
+}
+.square-list li{
+    margin-bottom: 5px;
+}
+.square-list li::before {
+    content: "\0025A0";
+    float: left;
+    color: #17abb3;
+    margin-right: 10px;
+}
 /* FOOTER */
 footer {
     background-color: #17abb3;
