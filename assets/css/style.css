@@ -32,12 +32,33 @@ h2 {
     font-weight: normal;
     margin-top: 0;
 }
+h3 {
+    margin-top: 0;
+    margin-bottom: -5px;
+    font-size: 0.95em;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 section {
     padding: 30px;
+}
+aside section, #profil section {
+    padding-bottom: 0;
 }
 strong {
     font-size: 3em;
     font-weight: 900;
+}
+small {
+    font-style: italic;
+    font-size: 0.8em;
+}
+span {
+    color: #17abb3;
 }
 em {
     font-style: normal;
@@ -47,6 +68,11 @@ ul {
     padding-left: 0;
     list-style-type: none;
     font-style: normal;
+    margin-bottom: 0;
+}
+p {
+    text-indent: 25px;
+    text-align: justify;
     margin-bottom: 0;
 }
 .icon {
