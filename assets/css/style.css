@@ -9,11 +9,17 @@
 * {
     box-sizing: border-box;
 }
+html {
+    background: linear-gradient(to right, #fff 50%, rgba(245, 245, 245, 0.6) 50%);
+    z-index: -1;
+}
 body {
     font-family: "Raleway", sans-serif;
+    color: #333333;
     margin: 0 auto;
     padding: 0;
     max-width: 1160px;
+    background-color: #fff;
 
 }
 main {
