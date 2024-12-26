@@ -19,6 +19,7 @@ header span {
     border-radius: 50%;
     border: 5px solid #fff;
     margin: 0 auto;
+    cursor:  zoom-in
 }
 #header-title {
     width: 70%;
@@ -112,4 +113,7 @@ footer section {
 }
 .social-networks img {
     width: 100%;
+}
+.social-networks img:hover {
+    opacity: 0.8;
 }
