@@ -54,8 +54,11 @@ header span {
 /* MAIN ASIDE */
 aside {
     width: 30%;
-    background-color: rgba(227, 227, 277, 0.5);
+    background-color: rgba(245, 245, 245);
     padding: 25px;
+}
+aside span {
+    color: #333;
 }
 #profil {
     width: 70%;
@@ -82,12 +85,31 @@ aside {
 #profil h2 {
     margin-bottom: 0;
 }
-
 #profil section:last-child {
     padding-bottom: 30px;
 }
 
 /* FOOTER */
-footer {
+footer small {
+    color: #f5f5f5;
+    margin-top: 5px;
+}
+footer section {
     background-color: #17abb3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.social-networks {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+.social-networks a {
+    display: block;
+    width: 20px;
+}
+.social-networks img {
+    width: 100%;
 }
